@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: linear-gradient(to right, #D7C2C9, #C697B3, #B56E9F, #B59379,#B7CD40);
+    color: aqua;
+  }
+  input {
+    margin: 12px 20px;
+    padding: 6px 12px;
+    background-color: rgb(60, 106, 125);
+    color: rgb(73, 80, 80);
+    border-radius: 10px;
+    font-size: larger;
+    border: 2px solid rgb(0, 247, 255);
+  }
+  button {
+    margin: 12px auto;
+    font-size: medium;
+    padding: 6px 12px;
+    border-radius: 10px;
+    background-color: rgb(60, 106, 125);
+    color: aqua;
+    border: 2px solid rgb(0, 255, 213);
+  }
+  a {
+    text-decoration: none;
+    color: aqua;
+  }
+  i {
+    color: red;
+    padding: 5px 5px;
+  }
+  .card-img,img{
+      margin: 5px auto;
+      width: 200px;
+      border-radius: 50%;
+  }
+  .container{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .main{
+      width: 60vw;
+      min-width: 330px;
+      text-align: center;
+      padding: 35px 15px;
+  }
+  h1{
+      padding: 10px 10px;
+      color:rgb(59, 55, 55);
+  }
+  .card{
+      width: 25rem;
+      background: #7272a0;
+      box-shadow: 1px 2px 3px #454545;
+      padding: 10px;
+      margin: 25px;
+  }
+  .card-title{
+      font-size:x-large;
+      font-weight: bold;
+  }
+  .card-subHeading{
+    font-size: medium;
+    color: rgb(87, 87, 87);
+  }
+  #profileInfo .card{
+      border: 1px solid rgb(0, 255, 217);
+  }
+  #repoInfo{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+  }
